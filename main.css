@@ -1,0 +1,137 @@
+body {
+  background-color: #ffffff;
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Shift', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Shift', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h6 {
+  font-family: 'Shift', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tab-content div{
+  padding-left: 1.5cm;
+  padding-right: 1.5cm;
+}
+
+.tab-content li b{
+  font-size: 22px;
+}
+
+ul {
+  text-indent: -15px;
+}
+
+#links li{
+  font-size: 24px;
+}
+
+#class_list li{
+  font-size: 20px;
+}
+
+.nav {
+  background-color: #ffffff;
+}
+
+.nav a {
+  color: #446cb3;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+.jumbotron {
+  background-image: url("earth.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  height: 150px;
+  margin-bottom: 5px;
+  padding-top: 0px
+}
+
+.jumbotron .container {
+  position: relative;
+  padding-top: 0px
+  /*top: 20px;*/
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+#profile_picture {
+	height: 200px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.tab-content p {
+	/* size: 30px; */
+	font-size: 18px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  margin-top: 80px;
+  width: 100%;
+  height: 80px;
+  background-color: #446cb3;
+  text-align: center;
+  color: #ffffff;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 0px 10px 0px 10px;
+}
+
+.footer img {
+  height: 40px;
+  width: 40px;
+}
