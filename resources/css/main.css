@@ -18,10 +18,10 @@ html {
 }
 
 #welcome h1, h3{
-
   padding-top: .5em;
   text-align: center;
   color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
