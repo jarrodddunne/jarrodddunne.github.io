@@ -1,8 +1,40 @@
 html {
   background: url("../images/houston_skylight_night.jpg") no-repeat center center fixed;
-  opacity: .5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.background {
+  width: 400px;
+  border-color: #333333;
+  border-width: 5px;
+  border-radius: 30px;
+  background: gray; /* older browsers */
+  background: rgba(0,0,0,0.8); /* newer browsers */
+  height: 600px;
+  margin: 10% auto;
+}
+
+#welcome h1, h3{
+
+  padding-top: .5em;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+#welcome img {
+  opacity: 100%;
+  display: block;
+  width: 300px;
+  margin: auto auto auto auto;
 }
