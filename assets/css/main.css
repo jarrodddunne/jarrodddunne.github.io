@@ -882,3 +882,25 @@
 .right {
     text-align: left;
 }
+
+.mirror-at-top {
+    padding: 0px 5px 0px 15px;
+    color: red;
+    font-size: 125%;
+    display: block;
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.mirror-at-bottom {
+    padding: 0px 5px 2px 15px;
+    color: red;
+    font-size: 125%;
+    display: block;
+    -webkit-transform: matrix(-1, 0, 0, -1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, -1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, -1, 0, 0);
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+}
